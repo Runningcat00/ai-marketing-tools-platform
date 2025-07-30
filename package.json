@@ -13,21 +13,22 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@mendable/firecrawl-js": "^1.0.0",
+    "@vercel/analytics": "^1.5.0",
+    "axios": "^1.6.0",
     "clsx": "^2.0.0",
     "date-fns": "^2.30.0",
-    "@mendable/firecrawl-js": "^1.0.0",
-    "axios": "^1.6.0"
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.8.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "@tailwindcss/forms": "^0.5.7",
-    "@tailwindcss/typography": "^0.5.10",
-    "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "^10.4.16",
     "cross-env": "^7.0.3",
     "eslint": "^8.52.0",

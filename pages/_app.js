@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { useEffect } from 'react'
 import { initializeAnalytics, trackPageView } from '../utils/analytics'
 import { useRouter } from 'next/router'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }) {
   const router = useRouter()
@@ -45,6 +46,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       
       <Component {...pageProps} />
+      <Analytics />
     </>
   )
 }

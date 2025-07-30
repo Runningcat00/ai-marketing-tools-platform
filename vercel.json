@@ -1,5 +1,4 @@
 {
-  "name": "ai-marketing-tools-platform",
   "version": 2,
   "regions": ["iad1"],
   "build": {
@@ -9,8 +8,7 @@
   },
   "env": {
     "NEXT_PUBLIC_SITE_URL": "https://ai-marketing-tools-platform.vercel.app",
-    "NEXT_PUBLIC_SITE_NAME": "The Vibe Marketer AI Tools",
-    "FIRECRAWL_API_KEY": "@firecrawl_api_key"
+    "NEXT_PUBLIC_SITE_NAME": "The Vibe Marketer AI Tools"
   },
   "functions": {
     "pages/api/**/*.js": {
