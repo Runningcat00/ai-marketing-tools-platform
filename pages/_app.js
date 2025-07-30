@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { useEffect } from 'react'
 import { initializeAnalytics, trackPageView } from '../utils/analytics'
 import { useRouter } from 'next/router'
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/next'
 
 export default function App({ Component, pageProps }) {
   const router = useRouter()
