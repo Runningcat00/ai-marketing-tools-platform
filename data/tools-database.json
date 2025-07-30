@@ -1,0 +1,764 @@
+{
+  "categories": {
+    "ai-marketing-automation": {
+      "id": "ai-marketing-automation",
+      "name": "AI Marketing Automation Tools",
+      "description": "AI-powered platforms for automating marketing workflows and campaigns",
+      "slug": "ai-marketing-automation",
+      "seo": {
+        "title": "Best AI Marketing Automation Tools 2025 - Complete Guide & Comparison",
+        "description": "Compare top AI marketing automation tools. Expert analysis of features, pricing, and ROI for growth-focused marketers. Used by 30,000+ professionals.",
+        "keywords": ["AI marketing automation", "marketing automation tools", "AI marketing software", "marketing automation platforms", "automated marketing tools"]
+      },
+      "tools": ["hubspot", "marketo", "jasper", "klaviyo", "zapier", "activecampaign", "mailchimp", "convertkit"],
+      "market_stats": {
+        "market_size": "4.97B",
+        "growth_rate": "20.7%",
+        "adoption_rate": "47%",
+        "avg_roi": "3.5X"
+      }
+    },
+    "email-marketing": {
+      "id": "email-marketing",
+      "name": "AI Email Marketing Tools",
+      "description": "AI-powered email marketing platforms for personalized campaigns",
+      "slug": "email-marketing",
+      "seo": {
+        "title": "Best AI Email Marketing Tools 2025 - Smart Campaign Automation",
+        "description": "Discover AI-powered email marketing tools that increase engagement by 35%. Compare features, pricing, and automation capabilities.",
+        "keywords": ["AI email marketing", "email automation", "email marketing software", "email campaign tools"]
+      },
+      "tools": ["klaviyo", "mailchimp", "convertkit", "activecampaign"],
+      "market_stats": {
+        "market_size": "2.3B",
+        "growth_rate": "18.2%",
+        "adoption_rate": "62%",
+        "avg_roi": "4.2X"
+      }
+    }
+  },
+  "tools": {
+    "hubspot": {
+      "id": "hubspot",
+      "name": "HubSpot Marketing Hub",
+      "slug": "hubspot-marketing-hub",
+      "category": "ai-marketing-automation",
+      "description": "All-in-one AI-powered marketing automation platform with comprehensive CRM integration",
+      "logo_url": "/images/tools/hubspot-logo.png",
+      "website": "https://www.hubspot.com",
+      "pricing": {
+        "starting_price": 45,
+        "pricing_model": "per month",
+        "free_tier": true,
+        "free_trial": true,
+        "trial_length": 14,
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": 0,
+            "features": ["Basic CRM", "Email marketing", "Forms", "Live chat"]
+          },
+          {
+            "name": "Starter",
+            "price": 45,
+            "features": ["Marketing automation", "Landing pages", "Ad management", "Reporting"]
+          },
+          {
+            "name": "Professional",
+            "price": 800,
+            "features": ["Smart content", "A/B testing", "Custom reporting", "Workflows"]
+          },
+          {
+            "name": "Enterprise",
+            "price": 3200,
+            "features": ["Advanced reporting", "Custom events", "Predictive lead scoring", "Revenue attribution"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "AI content creation and optimization",
+          "Predictive lead scoring",
+          "Smart content personalization",
+          "Automated email sequences",
+          "AI-powered chatbots",
+          "Content strategy recommendations"
+        ],
+        "integrations": ["Salesforce", "WordPress", "Shopify", "Zapier", "Gmail", "Outlook", "Slack", "Zoom"],
+        "target_audience": "Small to enterprise businesses",
+        "company_size": ["SMB", "Enterprise"],
+        "use_cases": ["Lead generation", "Email marketing", "Content marketing", "Social media", "Sales automation"],
+        "supported_channels": ["Email", "Social Media", "Website", "Landing Pages", "Ads", "Blog"]
+      },
+      "affiliate": {
+        "link": "https://partners.hubspot.com/affiliate-program",
+        "commission_type": "recurring",
+        "commission_rate": "15%",
+        "commission_amount": 200,
+        "tracking_code": "HS_AFF_2025_VM",
+        "cookie_duration": 90
+      },
+      "ratings": {
+        "overall_score": 4.5,
+        "ease_of_use": 4.2,
+        "features": 4.7,
+        "value": 4.1,
+        "support": 4.6,
+        "total_reviews": 3847
+      },
+      "expert_opinion": "HubSpot's AI features make it perfect for marketers who want comprehensive automation without the complexity. The content creation tools alone save 10+ hours per week, and the predictive lead scoring has improved our conversion rates by 34%. Best for businesses ready to scale their marketing operations.",
+      "pros": [
+        "Comprehensive all-in-one platform",
+        "Excellent AI content creation tools",
+        "Strong integration ecosystem",
+        "Great support and educational resources",
+        "Free tier available for startups",
+        "Robust reporting and analytics"
+      ],
+      "cons": [
+        "Can be expensive at higher tiers",
+        "Learning curve for advanced features",
+        "Some AI features require Professional+ plans",
+        "Can feel overwhelming for small teams"
+      ],
+      "best_for": [
+        "Growing businesses (10-500 employees)",
+        "Content-heavy marketing strategies",
+        "Teams wanting all-in-one solution",
+        "Companies with sales and marketing alignment needs"
+      ],
+      "alternatives": ["Marketo", "Pardot", "ActiveCampaign", "Mailchimp"],
+      "updated_at": "2025-07-29"
+    },
+    "marketo": {
+      "id": "marketo",
+      "name": "Marketo Engage",
+      "slug": "marketo-engage",
+      "category": "ai-marketing-automation",
+      "description": "Enterprise-level marketing automation platform with advanced AI capabilities",
+      "logo_url": "/images/tools/marketo-logo.png",
+      "website": "https://www.marketo.com",
+      "pricing": {
+        "starting_price": 895,
+        "pricing_model": "per month",
+        "free_tier": false,
+        "free_trial": true,
+        "trial_length": 30,
+        "pricing_tiers": [
+          {
+            "name": "Growth",
+            "price": 895,
+            "features": ["Email marketing", "Landing pages", "Lead management", "Basic automation"]
+          },
+          {
+            "name": "Select",
+            "price": 1795,
+            "features": ["Advanced automation", "A/B testing", "Advanced reporting", "Webhooks"]
+          },
+          {
+            "name": "Prime",
+            "price": 3175,
+            "features": ["Predictive audiences", "Advanced attribution", "Revenue cycle analytics", "Advanced personalization"]
+          },
+          {
+            "name": "Ultimate",
+            "price": 5995,
+            "features": ["AI-powered insights", "Advanced workspace", "Unlimited custom fields", "Premium support"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "Predictive audience targeting",
+          "AI-powered content recommendations",
+          "Automated lead scoring",
+          "Dynamic content optimization",
+          "Intelligent campaign optimization",
+          "AI insights and analytics"
+        ],
+        "integrations": ["Salesforce", "Microsoft Dynamics", "SAP", "Oracle", "Slack", "Zoom", "GoToWebinar"],
+        "target_audience": "Mid-market to enterprise businesses",
+        "company_size": ["Enterprise"],
+        "use_cases": ["Account-based marketing", "Lead nurturing", "Revenue attribution", "Customer lifecycle marketing"],
+        "supported_channels": ["Email", "Social Media", "Website", "Events", "Mobile", "Direct Mail"]
+      },
+      "affiliate": {
+        "link": "https://www.marketo.com/partners/",
+        "commission_type": "one-time",
+        "commission_rate": "8%",
+        "commission_amount": 500,
+        "tracking_code": "MKT_AFF_2025_VM",
+        "cookie_duration": 60
+      },
+      "ratings": {
+        "overall_score": 4.3,
+        "ease_of_use": 3.8,
+        "features": 4.6,
+        "value": 3.9,
+        "support": 4.2,
+        "total_reviews": 1254
+      },
+      "expert_opinion": "Marketo is the gold standard for enterprise marketing automation. The AI capabilities are sophisticated, especially for account-based marketing and revenue attribution. However, it requires dedicated resources to manage effectively. Best for companies with $10M+ revenue and dedicated marketing ops teams.",
+      "pros": [
+        "Advanced AI and machine learning capabilities",
+        "Sophisticated lead scoring and nurturing",
+        "Excellent for account-based marketing",
+        "Strong integration with Salesforce",
+        "Comprehensive reporting and analytics",
+        "Scalable for large enterprises"
+      ],
+      "cons": [
+        "High cost and complexity",
+        "Steep learning curve",
+        "Requires dedicated admin resources",
+        "Overwhelming for small businesses",
+        "Setup can take several months"
+      ],
+      "best_for": [
+        "Enterprise companies (500+ employees)",
+        "B2B companies with long sales cycles",
+        "Organizations with dedicated marketing ops teams",
+        "Companies using Salesforce CRM"
+      ],
+      "alternatives": ["HubSpot", "Pardot", "Eloqua", "ActiveCampaign"],
+      "updated_at": "2025-07-29"
+    },
+    "jasper": {
+      "id": "jasper",
+      "name": "Jasper AI",
+      "slug": "jasper-ai",
+      "category": "ai-marketing-automation",
+      "description": "AI-powered content creation platform for marketing teams and agencies",
+      "logo_url": "/images/tools/jasper-logo.png",
+      "website": "https://www.jasper.ai",
+      "pricing": {
+        "starting_price": 39,
+        "pricing_model": "per month",
+        "free_tier": false,
+        "free_trial": true,
+        "trial_length": 7,
+        "pricing_tiers": [
+          {
+            "name": "Creator",
+            "price": 39,
+            "features": ["50+ templates", "25+ languages", "Brand voice", "Browser extension"]
+          },
+          {
+            "name": "Teams",
+            "price": 99,
+            "features": ["Collaboration tools", "Brand management", "Analytics", "Priority support"]
+          },
+          {
+            "name": "Business",
+            "price": 499,
+            "features": ["Custom AI models", "Advanced analytics", "API access", "Custom integrations"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "AI content generation",
+          "Brand voice consistency",
+          "Multi-language content creation",
+          "Content optimization suggestions",
+          "Automated content workflows",
+          "SEO-optimized content"
+        ],
+        "integrations": ["Surfer SEO", "Grammarly", "Copyscape", "WordPress", "Shopify", "Chrome Extension"],
+        "target_audience": "Content creators, marketers, and agencies",
+        "company_size": ["SMB", "Agency"],
+        "use_cases": ["Blog writing", "Social media content", "Ad copy", "Email campaigns", "Product descriptions"],
+        "supported_channels": ["Blog", "Social Media", "Email", "Ads", "Website", "Product Pages"]
+      },
+      "affiliate": {
+        "link": "https://www.jasper.ai/affiliates",
+        "commission_type": "recurring",
+        "commission_rate": "30%",
+        "commission_amount": 50,
+        "tracking_code": "JSP_AFF_2025_VM",
+        "cookie_duration": 30
+      },
+      "ratings": {
+        "overall_score": 4.4,
+        "ease_of_use": 4.6,
+        "features": 4.3,
+        "value": 4.2,
+        "support": 4.1,
+        "total_reviews": 2156
+      },
+      "expert_opinion": "Jasper has revolutionized our content creation process. The AI understands our brand voice perfectly and generates high-quality content that requires minimal editing. We've reduced content production time by 70% while maintaining quality. Essential for content-heavy marketing strategies.",
+      "pros": [
+        "High-quality AI content generation",
+        "Excellent brand voice training",
+        "User-friendly interface",
+        "Strong template library",
+        "Multi-language support",
+        "Good integration ecosystem"
+      ],
+      "cons": [
+        "Can be expensive for heavy users",
+        "Occasional need for fact-checking",
+        "Limited free trial period",
+        "Some templates are better than others"
+      ],
+      "best_for": [
+        "Content marketing teams",
+        "Digital marketing agencies",
+        "Solo entrepreneurs and creators",
+        "E-commerce businesses needing product descriptions"
+      ],
+      "alternatives": ["Copy.ai", "Writesonic", "Rytr", "ContentBot"],
+      "updated_at": "2025-07-29"
+    },
+    "klaviyo": {
+      "id": "klaviyo",
+      "name": "Klaviyo",
+      "slug": "klaviyo",
+      "category": "ai-marketing-automation",
+      "description": "AI-powered email and SMS marketing platform for e-commerce businesses",
+      "logo_url": "/images/tools/klaviyo-logo.png",
+      "website": "https://www.klaviyo.com",
+      "pricing": {
+        "starting_price": 20,
+        "pricing_model": "per month",
+        "free_tier": true,
+        "free_trial": true,
+        "trial_length": 30,
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": 0,
+            "features": ["500 contacts", "Email campaigns", "Basic automation", "Templates"]
+          },
+          {
+            "name": "Email",
+            "price": 20,
+            "features": ["Unlimited emails", "Advanced segmentation", "A/B testing", "Reporting"]
+          },
+          {
+            "name": "Email & SMS",
+            "price": 35,
+            "features": ["SMS campaigns", "Advanced automation", "Predictive analytics", "Revenue reporting"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "Predictive analytics for customer behavior",
+          "AI-powered product recommendations",
+          "Smart segmentation",
+          "Automated send-time optimization",
+          "AI content generation",
+          "Predictive CLV modeling"
+        ],
+        "integrations": ["Shopify", "WooCommerce", "Magento", "BigCommerce", "Stripe", "PayPal", "Facebook", "Instagram"],
+        "target_audience": "E-commerce businesses and online retailers",
+        "company_size": ["SMB", "Enterprise"],
+        "use_cases": ["E-commerce email marketing", "Customer retention", "Abandoned cart recovery", "Product recommendations"],
+        "supported_channels": ["Email", "SMS", "Push Notifications", "Facebook", "Instagram"]
+      },
+      "affiliate": {
+        "link": "https://www.klaviyo.com/partners/referrals",
+        "commission_type": "recurring",
+        "commission_rate": "25%",
+        "commission_amount": 100,
+        "tracking_code": "KLV_AFF_2025_VM",
+        "cookie_duration": 60
+      },
+      "ratings": {
+        "overall_score": 4.6,
+        "ease_of_use": 4.4,
+        "features": 4.7,
+        "value": 4.5,
+        "support": 4.3,
+        "total_reviews": 1876
+      },
+      "expert_opinion": "Klaviyo is the ultimate email marketing platform for e-commerce. The AI-powered segmentation and product recommendations have increased our email revenue by 45%. The predictive analytics help identify high-value customers before they churn. A must-have for any serious e-commerce business.",
+      "pros": [
+        "Excellent e-commerce integrations",
+        "Powerful AI-driven segmentation",
+        "Strong predictive analytics",
+        "Great email deliverability",
+        "Comprehensive revenue tracking",
+        "Advanced automation capabilities"
+      ],
+      "cons": [
+        "Pricing can get expensive with large lists",
+        "Learning curve for advanced features",
+        "SMS pricing separate from email",
+        "Limited design templates compared to competitors"
+      ],
+      "best_for": [
+        "E-commerce businesses of all sizes",
+        "Online retailers with customer data",
+        "Subscription-based businesses",
+        "Companies focused on customer lifetime value"
+      ],
+      "alternatives": ["Mailchimp", "Constant Contact", "ConvertKit", "ActiveCampaign"],
+      "updated_at": "2025-07-29"
+    },
+    "zapier": {
+      "id": "zapier",
+      "name": "Zapier",
+      "slug": "zapier",
+      "category": "ai-marketing-automation",
+      "description": "Workflow automation platform connecting 5,000+ marketing tools and apps",
+      "logo_url": "/images/tools/zapier-logo.png",
+      "website": "https://zapier.com",
+      "pricing": {
+        "starting_price": 19.99,
+        "pricing_model": "per month",
+        "free_tier": true,
+        "free_trial": true,
+        "trial_length": 14,
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": 0,
+            "features": ["100 tasks/month", "5 Zaps", "2-step Zaps", "Basic support"]
+          },
+          {
+            "name": "Starter",
+            "price": 19.99,
+            "features": ["750 tasks/month", "20 Zaps", "Multi-step Zaps", "Premium apps"]
+          },
+          {
+            "name": "Professional",
+            "price": 49,
+            "features": ["2,000 tasks/month", "Unlimited Zaps", "Premium apps", "Webhooks"]
+          },
+          {
+            "name": "Team",
+            "price": 69,
+            "features": ["50,000 tasks/month", "Shared workspaces", "Team management", "Priority support"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "AI-powered workflow suggestions",
+          "Intelligent data mapping",
+          "Smart error handling",
+          "Automated workflow optimization",
+          "AI-driven integration recommendations",
+          "Natural language automation creation"
+        ],
+        "integrations": ["5,000+ apps including Gmail", "Slack", "Trello", "Salesforce", "HubSpot", "Shopify", "WordPress", "Facebook"],
+        "target_audience": "Businesses of all sizes needing workflow automation",
+        "company_size": ["SMB", "Enterprise"],
+        "use_cases": ["Lead management", "Social media automation", "Email marketing", "Data synchronization", "Task automation"],
+        "supported_channels": ["Email", "Social Media", "CRM", "Project Management", "E-commerce", "Analytics"]
+      },
+      "affiliate": {
+        "link": "https://zapier.com/developer/documentation/v2/reference/#creating-an-app",
+        "commission_type": "recurring",
+        "commission_rate": "20%",
+        "commission_amount": 30,
+        "tracking_code": "ZAP_AFF_2025_VM",
+        "cookie_duration": 30
+      },
+      "ratings": {
+        "overall_score": 4.5,
+        "ease_of_use": 4.7,
+        "features": 4.4,
+        "value": 4.6,
+        "support": 4.2,
+        "total_reviews": 4521
+      },
+      "expert_opinion": "Zapier is the Swiss Army knife of marketing automation. It connects everything and automates the tedious tasks that eat up hours every week. We've automated lead routing, social media posting, and data entry, saving 15+ hours weekly. Essential for any marketing stack.",
+      "pros": [
+        "Connects virtually any app",
+        "Very user-friendly interface",
+        "Excellent value for money",
+        "Strong free tier",
+        "Great documentation and tutorials",
+        "Reliable and stable automations"
+      ],
+      "cons": [
+        "Can get expensive with high task volumes",
+        "Some integrations are basic",
+        "Learning curve for complex workflows",
+        "Debugging can be challenging"
+      ],
+      "best_for": [
+        "Small to medium businesses",
+        "Marketing teams with diverse tool stacks",
+        "Agencies managing multiple clients",
+        "Anyone wanting to automate repetitive tasks"
+      ],
+      "alternatives": ["Microsoft Power Automate", "IFTTT", "Integromat", "Workato"],
+      "updated_at": "2025-07-29"
+    },
+    "activecampaign": {
+      "id": "activecampaign",
+      "name": "ActiveCampaign",
+      "slug": "activecampaign",
+      "category": "ai-marketing-automation",
+      "description": "Customer experience automation platform with AI-powered personalization",
+      "logo_url": "/images/tools/activecampaign-logo.png",
+      "website": "https://www.activecampaign.com",
+      "pricing": {
+        "starting_price": 29,
+        "pricing_model": "per month",
+        "free_tier": false,
+        "free_trial": true,
+        "trial_length": 14,
+        "pricing_tiers": [
+          {
+            "name": "Lite",
+            "price": 29,
+            "features": ["Email marketing", "Marketing automation", "Chat & email support", "Segmentation"]
+          },
+          {
+            "name": "Plus",
+            "price": 49,
+            "features": ["CRM with sales automation", "Landing pages", "Lead scoring", "SMS marketing"]
+          },
+          {
+            "name": "Professional",
+            "price": 149,
+            "features": ["Customer attribution", "Predictive sending", "Site messaging", "Attribution reporting"]
+          },
+          {
+            "name": "Enterprise",
+            "price": 279,
+            "features": ["Custom reporting", "Single sign-on", "Dedicated support", "Custom integrations"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "Predictive sending optimization",
+          "AI-powered customer journey mapping",
+          "Smart segmentation",
+          "Automated win probability scoring",
+          "AI content recommendations",
+          "Predictive content personalization"
+        ],
+        "integrations": ["Shopify", "WordPress", "Salesforce", "Stripe", "PayPal", "Facebook", "Google Analytics", "Zapier"],
+        "target_audience": "Small to medium businesses focusing on customer experience",
+        "company_size": ["SMB"],
+        "use_cases": ["Email marketing", "Sales automation", "Customer onboarding", "E-commerce marketing"],
+        "supported_channels": ["Email", "SMS", "Site Messaging", "Social Media", "Landing Pages"]
+      },
+      "affiliate": {
+        "link": "https://www.activecampaign.com/partner/referrals",
+        "commission_type": "recurring",
+        "commission_rate": "30%",
+        "commission_amount": 75,
+        "tracking_code": "AC_AFF_2025_VM",
+        "cookie_duration": 60
+      },
+      "ratings": {
+        "overall_score": 4.4,
+        "ease_of_use": 4.1,
+        "features": 4.5,
+        "value": 4.6,
+        "support": 4.3,
+        "total_reviews": 3210
+      },
+      "expert_opinion": "ActiveCampaign strikes the perfect balance between power and simplicity. The AI features like predictive sending have improved our open rates by 28%. The visual automation builder makes complex workflows manageable. Great for businesses ready to graduate from basic email marketing.",
+      "pros": [
+        "Excellent automation capabilities", 
+        "Strong AI and machine learning features",
+        "Good value for the feature set",
+        "Visual automation builder",
+        "Solid CRM integration",
+        "Great segmentation options"
+      ],
+      "cons": [
+        "Can be complex for beginners",
+        "Email templates could be better",
+        "Reporting could be more intuitive",
+        "SMS costs extra"
+      ],
+      "best_for": [
+        "Growing small businesses",
+        "E-commerce companies",
+        "Service-based businesses",
+        "Teams wanting CRM + marketing automation"
+      ],
+      "alternatives": ["HubSpot", "Mailchimp", "ConvertKit", "Drip"],
+      "updated_at": "2025-07-29"
+    },
+    "mailchimp": {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "slug": "mailchimp",
+      "category": "ai-marketing-automation",
+      "description": "All-in-one marketing platform with AI-powered insights and automation",
+      "logo_url": "/images/tools/mailchimp-logo.png",
+      "website": "https://mailchimp.com",
+      "pricing": {
+        "starting_price": 10,
+        "pricing_model": "per month",
+        "free_tier": true,
+        "free_trial": true,
+        "trial_length": 30,
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": 0,
+            "features": ["500 contacts", "1,000 emails/month", "Basic templates", "Marketing CRM"]
+          },
+          {
+            "name": "Essentials",
+            "price": 10,
+            "features": ["50,000 contacts", "Custom branding", "A/B testing", "Scheduling"]
+          },
+          {
+            "name": "Standard",
+            "price": 15,
+            "features": ["100,000 contacts", "Advanced audience insights", "Custom templates", "Behavioral targeting"]
+          },
+          {
+            "name": "Premium",
+            "price": 300,
+            "features": ["Advanced segmentation", "Multivariate testing", "Advanced analytics", "Phone support"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "AI-powered product recommendations",
+          "Smart segmentation",
+          "Send time optimization",
+          "Content optimizer",
+          "Predictive demographics",
+          "Creative assistant"
+        ],
+        "integrations": ["Shopify", "WooCommerce", "Salesforce", "WordPress", "Facebook", "Instagram", "Google Analytics", "Zapier"],
+        "target_audience": "Small businesses and entrepreneurs",
+        "company_size": ["SMB"],
+        "use_cases": ["Email marketing", "Social media advertising", "Landing pages", "E-commerce marketing"],
+        "supported_channels": ["Email", "Social Media Ads", "Landing Pages", "Postcards", "Websites"]
+      },
+      "affiliate": {
+        "link": "https://mailchimp.com/about/partners/",
+        "commission_type": "one-time",
+        "commission_rate": "150%",
+        "commission_amount": 120,
+        "tracking_code": "MC_AFF_2025_VM",
+        "cookie_duration": 30
+      },
+      "ratings": {
+        "overall_score": 4.2,
+        "ease_of_use": 4.5,
+        "features": 4.0,
+        "value": 4.4,
+        "support": 3.9,
+        "total_reviews": 5643
+      },
+      "expert_opinion": "Mailchimp remains a solid choice for small businesses getting started with email marketing. The AI features have improved significantly, and the free tier is generous. However, for advanced automation, other platforms offer more sophisticated options. Great for beginners and budget-conscious businesses.",
+      "pros": [
+        "Generous free tier",
+        "Very user-friendly",
+        "Good template selection",
+        "Strong brand recognition",
+        "All-in-one platform",
+        "Good mobile app"
+      ],
+      "cons": [
+        "Limited automation on lower tiers",
+        "Can get expensive as you scale",
+        "Support quality varies",
+        "Less sophisticated than competitors"
+      ],
+      "best_for": [
+        "Small businesses and startups",
+        "Non-profits with limited budgets",
+        "E-commerce businesses on Shopify/WooCommerce",
+        "Businesses wanting simple, reliable email marketing"
+      ],
+      "alternatives": ["ConvertKit", "ActiveCampaign", "Constant Contact", "AWeber"],
+      "updated_at": "2025-07-29"
+    },
+    "convertkit": {
+      "id": "convertkit",
+      "name": "ConvertKit",
+      "slug": "convertkit",
+      "category": "ai-marketing-automation",
+      "description": "Email marketing automation platform designed for creators and online businesses",
+      "logo_url": "/images/tools/convertkit-logo.png",
+      "website": "https://convertkit.com",
+      "pricing": {
+        "starting_price": 29,
+        "pricing_model": "per month",
+        "free_tier": true,
+        "free_trial": true,
+        "trial_length": 14,
+        "pricing_tiers": [
+          {
+            "name": "Free",
+            "price": 0,
+            "features": ["1,000 subscribers", "Unlimited landing pages", "Forms", "Email broadcasts"]
+          },
+          {
+            "name": "Creator",
+            "price": 29,
+            "features": ["Automated funnels", "Advanced reporting", "Integrations", "Email support"]
+          },
+          {
+            "name": "Creator Pro",
+            "price": 59,
+            "features": ["Advanced automation", "Subscriber scoring", "Advanced reporting", "Priority support"]
+          }
+        ]
+      },
+      "features": {
+        "ai_capabilities": [
+          "Smart subscriber tagging",
+          "Automated sequence optimization",
+          "Intelligent send time optimization",
+          "AI-powered subject line suggestions",
+          "Predictive subscriber scoring",
+          "Content performance insights"
+        ],
+        "integrations": ["Shopify", "WooCommerce", "Stripe", "PayPal", "WordPress", "Leadpages", "ClickFunnels", "Zapier"],
+        "target_audience": "Content creators, bloggers, and online course creators",
+        "company_size": ["SMB"],
+        "use_cases": ["Newsletter marketing", "Course promotion", "Product launches", "Content monetization"],
+        "supported_channels": ["Email", "Landing Pages", "Forms", "Automation Sequences"]
+      },
+      "affiliate": {
+        "link": "https://convertkit.com/ambassador",
+        "commission_type": "recurring",
+        "commission_rate": "30%",
+        "commission_amount": 50,
+        "tracking_code": "CK_AFF_2025_VM",
+        "cookie_duration": 60
+      },
+      "ratings": {
+        "overall_score": 4.3,
+        "ease_of_use": 4.4,
+        "features": 4.2,
+        "value": 4.1,
+        "support": 4.5,
+        "total_reviews": 1987
+      },
+      "expert_opinion": "ConvertKit is the go-to choice for creators and online educators. The automation features are intuitive but powerful, and the subscriber tagging system is brilliant for segmentation. The AI improvements have made sequence optimization much easier. Perfect for anyone building an audience-based business.",
+      "pros": [
+        "Creator-focused features",
+        "Excellent automation workflows",
+        "Great customer support",
+        "Intuitive tagging system",
+        "Strong deliverability",
+        "Good free tier"
+      ],
+      "cons": [
+        "Limited design templates",
+        "Can be pricey for large lists",
+        "Less suitable for e-commerce",
+        "Basic reporting compared to competitors"
+      ],
+      "best_for": [
+        "Content creators and bloggers",
+        "Online course creators",
+        "Coaches and consultants",
+        "Authors and speakers"
+      ],
+      "alternatives": ["Mailchimp", "ActiveCampaign", "AWeber", "GetResponse"],
+      "updated_at": "2025-07-29"
+    }
+  }
+}
