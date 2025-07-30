@@ -3,10 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   
-  // Enable experimental features
-  experimental: {
-    appDir: false, // Keep using pages directory
-  },
+  // Removed experimental.appDir as it's deprecated in Next.js 14
   
   // Image optimization
   images: {

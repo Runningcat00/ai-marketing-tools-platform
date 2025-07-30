@@ -195,6 +195,170 @@ export const trackUserEngagement = (action, details = {}) => {
   trackToolEvent('user_engagement', engagementData)
 }
 
+// Track lead magnet conversions
+export const trackLeadMagnet = (magnetType, email, additionalData = {}) => {
+  try {
+    const leadData = {
+      magnet_type: magnetType,
+      email_domain: email ? email.split('@')[1] : 'unknown',
+      timestamp: new Date().toISOString(),
+      session_duration: getSessionDuration(),
+      ...additionalData
+    }
+    
+    // Google Analytics conversion
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'generate_lead', {
+        currency: 'USD',
+        value: 25, // Estimated lead value
+        lead_type: magnetType,
+        custom_parameters: leadData
+      })
+    }
+    
+    // Facebook Pixel lead event
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'Lead', {
+        content_name: magnetType,
+        value: 25,
+        currency: 'USD'
+      })
+    }
+    
+    trackToolEvent('lead_magnet_conversion', leadData)
+    
+  } catch (error) {
+    console.error('Lead magnet tracking error:', error)
+  }
+}
+
+// Track scroll depth
+export const trackScrollDepth = () => {
+  if (typeof window === 'undefined') return
+  
+  let maxScroll = 0
+  const milestones = [25, 50, 75, 90, 100]
+  const tracked = new Set()
+  
+  const handleScroll = () => {
+    const scrollTop = window.pageYOffset
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight
+    const scrollPercent = Math.round((scrollTop / docHeight) * 100)
+    
+    if (scrollPercent > maxScroll) {
+      maxScroll = scrollPercent
+      
+      milestones.forEach(milestone => {
+        if (scrollPercent >= milestone && !tracked.has(milestone)) {
+          tracked.add(milestone)
+          trackToolEvent('scroll_depth', {
+            depth_percentage: milestone,
+            page_url: window.location.href
+          })
+        }
+      })
+    }
+  }
+  
+  window.addEventListener('scroll', handleScroll, { passive: true })
+  
+  return () => {
+    window.removeEventListener('scroll', handleScroll)
+  }
+}
+
+// Track time on page
+export const trackTimeOnPage = () => {
+  if (typeof window === 'undefined') return
+  
+  const startTime = Date.now()
+  const milestones = [30, 60, 120, 300, 600] // seconds
+  const tracked = new Set()
+  
+  const checkTimeSpent = () => {
+    const timeSpent = Math.round((Date.now() - startTime) / 1000)
+    
+    milestones.forEach(milestone => {
+      if (timeSpent >= milestone && !tracked.has(milestone)) {
+        tracked.add(milestone)
+        trackToolEvent('time_on_page', {
+          time_seconds: milestone,
+          page_url: window.location.href,
+          page_title: document.title
+        })
+      }
+    })
+  }
+  
+  const interval = setInterval(checkTimeSpent, 10000) // Check every 10 seconds
+  
+  return () => {
+    clearInterval(interval)
+    // Track final time on page
+    const finalTime = Math.round((Date.now() - startTime) / 1000)
+    trackToolEvent('page_exit', {
+      time_on_page: finalTime,
+      page_url: window.location.href
+    })
+  }
+}
+
+// Track email interactions
+export const trackEmailInteraction = (action, emailAddress, additionalData = {}) => {
+  const emailData = {
+    action, // 'signup', 'download', 'newsletter_subscribe'
+    email_domain: emailAddress ? emailAddress.split('@')[1] : 'unknown',
+    timestamp: new Date().toISOString(),
+    ...additionalData
+  }
+  
+  trackToolEvent('email_interaction', emailData)
+  
+  // Track as conversion for marketing attribution
+  if (typeof gtag !== 'undefined') {
+    gtag('event', 'conversion', {
+      send_to: 'AW-CONVERSION_ID', // Replace with actual conversion ID
+      value: 1.0,
+      currency: 'USD',
+      transaction_id: `email_${Date.now()}`
+    })
+  }
+}
+
+// Track resource downloads
+export const trackResourceDownload = (resourceId, resourceType, userId = null) => {
+  const downloadData = {
+    resource_id: resourceId,
+    resource_type: resourceType,
+    user_id: userId,
+    timestamp: new Date().toISOString(),
+    page_url: typeof window !== 'undefined' ? window.location.href : ''
+  }
+  
+  trackToolEvent('resource_download', downloadData)
+  
+  // Facebook Pixel download event
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'Download', {
+      content_name: resourceId,
+      content_type: resourceType
+    })
+  }
+}
+
+// Track comparison interactions
+export const trackComparisonInteraction = (action, toolsCompared, additionalData = {}) => {
+  const comparisonData = {
+    action, // 'filter', 'sort', 'compare', 'view_details'
+    tools_compared: toolsCompared,
+    comparison_size: toolsCompared.length,
+    timestamp: new Date().toISOString(),
+    ...additionalData
+  }
+  
+  trackToolEvent('comparison_interaction', comparisonData)
+}
+
 // Helper function to calculate session duration
 function getSessionDuration() {
   try {

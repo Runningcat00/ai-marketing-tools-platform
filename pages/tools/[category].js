@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
-import { GetStaticProps, GetStaticPaths } from 'next'
+// Dynamic category pages for AI marketing tools
 import toolsDatabase from '../../data/tools-database.json'
 import ComparisonMatrix from '../../components/ComparisonMatrix'
 import SelectionQuiz from '../../components/SelectionQuiz'
